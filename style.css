@@ -1,0 +1,112 @@
+
+* {
+	font-family: "Gill Sans", sans-serif;
+	font-weight: lighter;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Gill Sans", sans-serif;
+	font-weight: lighter;
+}
+
+#title {
+	border-bottom: 1px solid dodgerblue;
+	/* background-color: white; */
+	margin: 0;
+	/* box-shadow: 1px 3px 3px rgba(0,0,0,0.3); */
+}
+
+#title h1 {
+	color: hsl(217, 100%, 30%);
+	margin-left: 15%;
+	margin-top: 0;
+	padding-top: 3%;
+	padding-bottom: -2%;
+	paddin-bottom: -2%;
+	margin-bottom: 0.5%;
+}
+
+
+body {
+    	background-color: #FAFAFA;
+	margin: 0;
+}
+
+
+
+#location {
+	display: flex;
+	margin-top: 4px !important;
+}
+
+#location p, #location-found {
+	font-size: 125%;
+}
+
+#location p {
+	margin-right: 5%;
+	font-weight: normal;
+}
+
+button {
+	width: 10vw;
+	height: 10vh;
+	border-radius: 5px;
+}
+
+#location, #results {
+	/* margin: auto; */
+	/* width: 70%; */
+	/* border-left: 1px solid #eee; */
+}
+
+
+section#location {}
+
+.container {
+    width: 70%;
+    margin: auto;
+    height: 70vw;
+    border-left: 0.05px solid dodgerblue;
+    border-right: 0.05px solid dodgerblue;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow: -1px 0px 3px rgba(0,0,0,0.3),1px 0px 3px rgba(0,0,0,0.3);
+}
+
+.container {
+    background-color: white;
+}
+
+section#location {
+    margin-top: 5% !important;
+}
+
+.database-result {
+	display: flex;
+	width: 73%;
+	justify-content: space-between;
+}
+
+#results h3 {
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+b {
+	font-wieght: normal;
+}
+
+.closing-soon {
+	color: red;
+}
+
+
+#results span {
+font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: dodgerblue;
+}
